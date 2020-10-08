@@ -5,21 +5,9 @@
     flex-flow: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
 
-    .header {
-        height: 10rem;
-        width: 40%;
-        margin: 1rem;
-        padding: 2rem;
-        border-radius: 0.5rem;
-        border: 2px solid variables.$border-color;
-    }
-
-    .body {
-        width: 40%;
-        margin: 1rem;
-        padding: 2rem;
-        border-radius: 0.5rem;
-        border: 2px solid variables.$border-color;
+    .container {
+        width: 50%;
     }
 }

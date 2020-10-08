@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { GeneralTemplate } from './general.template';
+import { CardModule } from '../../components';
 
 
 
@@ -9,7 +10,8 @@ import { GeneralTemplate } from './general.template';
     GeneralTemplate
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    CardModule
   ],
   exports: [
     GeneralTemplate

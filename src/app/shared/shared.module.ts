@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { GeneralTemplateModule } from './templates';
-import { RadioButtonModule, InputModule, LabelModule, HeadingModule } from './components';
+import { RadioButtonModule, InputModule, LabelModule, HeadingModule, CardModule } from './components';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
@@ -17,7 +17,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     HeadingModule,
 
     RadioButtonModule,
-    InputModule
+    InputModule,
+    CardModule
   ],
   exports: [
     CommonModule,
@@ -31,6 +32,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
     RadioButtonModule,
     InputModule,
+    CardModule
   ]
 })
 export class SharedModule { }

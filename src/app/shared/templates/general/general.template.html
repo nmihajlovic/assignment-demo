@@ -1,6 +1,14 @@
-<div class="header">
-    <ng-content select="[tmpHeader]"></ng-content>
+<div class="container">
+    <mol-card class="mt-1">
+        <div cardBody>
+            <ng-content select="[tmpHeader]"></ng-content>
+        </div>
+    </mol-card>
+    
+    <mol-card class="mt-1">
+        <div cardBody>
+            <ng-content select="[tmpBody]"></ng-content>
+        </div>
+    </mol-card>
 </div>
-<div class="body">
-    <ng-content select="[tmpBody]"></ng-content>
-</div>
+
