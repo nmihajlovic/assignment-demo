@@ -1,0 +1,15 @@
+@use '../../shared/styles/variables';
+
+:host {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .history-container {
+        height: 100%;
+        width: 50%;
+        border: 2px solid variables.$border-color;
+        border-radius: 0.5rem;
+        overflow: auto;
+    }
+}

@@ -1,0 +1,7 @@
+<form [formGroup]="form">
+    <mol-input label="Search for:" formControlName="value"></mol-input>
+    <div class="d-flex mt-1">
+        <mol-radio-button label="Google" formControlName="type" [value]="searchType.Google"></mol-radio-button>
+        <mol-radio-button label="Bing" formControlName="type" [value]="searchType.Bing" class="ml-1"></mol-radio-button>
+    </div>
+</form>

@@ -1,0 +1,5 @@
+<div *ngFor="let history of history$ | async" class="history-item p-1">
+    <div class="mb-1"><span>Value:</span> ({{ history.value }})</div>
+    <div class="mb-1"><span>Created at:</span> ({{ history.createdAt | date: 'dd.MM.yyyy HH:mm:ss'}})</div>
+    <div><span>Type:</span> ({{ history.type }})</div>
+</div>

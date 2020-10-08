@@ -1,0 +1,58 @@
+.d-flex {
+  display: flex;  
+}
+
+.emphasize-text {
+  font-style: italic;
+  font-weight: 600;
+}
+
+@for $i from 1 through 4 {
+  $offset: $i * 1rem;
+  .p-#{$i} { 
+      padding: $offset;
+  }
+
+  .pl-#{$i} {
+    padding-left: $offset;
+  }
+
+  .pr-#{$i} {
+    padding-right: $offset;
+  }
+
+  .pt-#{$i} {
+    padding-top: $offset;
+  }
+
+  .pb-#{$i} {
+    padding-bottom: $offset;
+  }
+
+  .m-#{$i} { 
+    margin: $offset;
+  }
+
+  .ml-#{$i} {
+    margin-left: $offset;
+  }
+
+  .mr-#{$i} {
+    margin-right: $offset;
+  }
+
+  .mt-#{$i} {
+    margin-top: $offset;
+  }
+
+  .mb-#{$i} {
+    margin-bottom: $offset;
+  }
+
+  .ml-auto {
+    margin-left: auto;
+  }
+  .mr-auto {
+    margin-right: auto;
+  }
+}

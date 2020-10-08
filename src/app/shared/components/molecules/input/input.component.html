@@ -1,0 +1,11 @@
+<atm-label *ngIf="label" [value]="label" [for]="id" class="label"></atm-label>
+<input 
+class="input" 
+[id]="id" 
+[(ngModel)]="val"
+[type]="type" 
+(focus)="onFocus($event)" 
+(focusout)="onFocusOut($event)" 
+(blur)="onBlur($event)" 
+(keyup)="onKeyUp($event)" 
+(keydown)="onKeyDown($event)" >

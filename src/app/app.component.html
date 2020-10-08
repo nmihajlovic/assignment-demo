@@ -1,0 +1,12 @@
+<div class="nav">
+    <div class="nav-title">
+        <a [routerLink]="['/']">Demo App</a>
+    </div>
+    <ul class="nav-items d-flex mr-auto pl-4">
+        <li><a [routerLink]="['/']">Home</a></li>
+        <li class="pl-1">|</li>
+        <li class="pl-1"><a [routerLink]="['/history']">History</a></li>
+    </ul>
+    <img class="nav-icon" src="https://gravatar.com/avatar/14fe1ecc234c44d631f3649811a7c7d6?s=400&d=robohash&r=x"/>
+</div>
+<router-outlet></router-outlet>

@@ -1,0 +1,12 @@
+@use '../../../styles/variables';
+
+:host {
+    display: block;
+    position: relative;
+    
+    .label {
+        color: variables.$label-color;
+        font-size: 0.9rem;
+        font-weight: 400;
+    }
+}

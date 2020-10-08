@@ -1,0 +1,13 @@
+@use '../../../styles/variables';
+
+:host {
+    .label {
+        padding-bottom: 0.2rem;
+    }
+
+    .radio {
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
